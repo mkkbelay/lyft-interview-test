@@ -12,7 +12,7 @@ ________________________________________________________________________________
 2. Navigate to the cloned repository via your terminal/command line 
 3. Run `pip install -r requirements.txt` to make sure that you have the required Python libraries/packages installed.
 4. Activate the web application by typing `python app.py`
-5. In a new window on your terminal/command line, type the following command: `curl -X POST http://127.0.0.1:5000/test --data '{"string_to_cut": "iamyourlyftdriver"}' -H 'Content-Type: application/json'` to provide a POST request. This command will return a JSON object with "return_string" as the key and a string containing every third letter as the corresponding value. Example output:
+5. In a new window on your terminal/command line, type the following command: `curl -X POST http://127.0.0.1:5000/test --data '{"string_to_cut": "iamyourlyftdriver"}' -H 'Content-Type: application/json'`. This command will return a JSON object with "return_string" as the key and a string containing every third letter as the corresponding value. Example output that you should see in your terminal/command line:
 {
   "return_string": "muydv"
 }
